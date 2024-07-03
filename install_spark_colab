@@ -1,0 +1,8 @@
+%%capture
+!apt install libkrb5-dev
+!wget https://downloads.apache.org/spark/spark-3.0.2/spark-3.0.2-bin-hadoop3.2.tgz
+!tar xf spark-3.0.2-bin-hadoop3.2.tgz
+!pip install findspark
+!pip install sparkmagic
+!pip install pyspark
+! pip install pyspark --user
